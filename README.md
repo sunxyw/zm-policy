@@ -20,6 +20,8 @@ public function init()
 ```
 
 ```php
+use Sunxyw\Policy\Annotations\Gate;
+
 #[CQCommand('view_timer')]
 #[Gate('can_view_timer', 'any_param_here')]
 public function timer()
