@@ -1,0 +1,21 @@
+{
+  "name": "sunxyw/policy",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Sunxyw\\Policy\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "sunxyw",
+      "email": "xy2496419818@gmail.com"
+    }
+  ],
+  "require": {},
+  "extra": {
+    "zm": {
+      "module-path": "src"
+    }
+  }
+}
